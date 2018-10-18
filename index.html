@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Тестовое задание</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="include/jquery-3.3.1.min.js"></script>
+    <link rel="stylesheet" href="include/JQstyler/jquery.formstyler.css">
+    <link rel="stylesheet" href="include/JQstyler/jquery.formstyler.theme.css">
+    <script src="include/JQstyler/jquery.formstyler.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="dist/main.js"></script>
+
+
+</head>
+<body>
+<header></header>
+<div class="container" style="margin-top: -140px;">
+    <div class="select_container">
+        <p>Select currency to exhange:</p>
+        <select name="curs" id="curs">
+            <option value="USD">USD</option>
+            <option value="USD">EUR</option>
+            <option value="USD">RUB</option>
+            <option value="USD">GBP</option>
+        </select>
+    </div>
+    <div class="coins_block">
+        <!--первый блок сделан костыльно так как картинка была плохая-->
+        <div class="coin_block green_block">
+            <p class="ttl">Ethereum</p>
+            <img src="./img/ethereum.png" style="position: absolute;" alt="">
+            <div class="coin_content" style="margin-top: 145px;">
+                <div class="row">
+                    <p>Price:</p>
+                    <p class="price"></p>
+                </div>
+                <div class="row">
+                    <p>Percent change:</p>
+                    <p class="switcher"></p>
+                </div>
+                <div class="row">
+                    <p>Hour change:</p>
+                    <p class=" hour"></p>
+                </div>
+                <div class="row">
+                    <p>Day change:</p>
+                    <p class=" day"></p>
+                </div>
+                <div class="row">
+                    <p>Week change:</p>
+                    <p class=" week"></p>
+                </div>
+                <div class="row">
+                    <p>Month change:</p>
+                    <p class=" month"></p>
+                </div>
+            </div>
+        </div>
+        <div class="coin_block gray_block">
+            <p class="ttl">Litecoin</p>
+            <img src="./img/litecoin.png" alt="">
+            <div class="coin_content">
+                <div class="row">
+                    <p>Price:</p>
+                    <p class="price"></p>
+                </div>
+                <div class="row">
+                    <p>Percent change:</p>
+                    <p class="switcher"></p>
+                </div>
+                <div class="row">
+                    <p>Hour change:</p>
+                    <p class=" hour"></p>
+                </div>
+                <div class="row">
+                    <p>Day change:</p>
+                    <p class=" day"></p>
+                </div>
+                <div class="row">
+                    <p>Week change:</p>
+                    <p class=" week"></p>
+                </div>
+                <div class="row">
+                    <p>Month change:</p>
+                    <p class=" month"></p>
+                </div>
+            </div>
+        </div>
+        <div class="coin_block brown_block">
+            <p class="ttl">Bitcoin</p>
+            <img src="./img/bitcoin.png" alt="">
+            <div class="coin_content">
+                <div class="row">
+                    <p>Price:</p>
+                    <p class="price"></p>
+                </div>
+                <div class="row">
+                    <p>Percent change:</p>
+                    <p class="switcher"></p>
+                </div>
+                <div class="row">
+                    <p>Hour change:</p>
+                    <p class=" hour"></p>
+                </div>
+                <div class="row">
+                    <p>Day change:</p>
+                    <p class=" day"></p>
+                </div>
+                <div class="row">
+                    <p>Week change:</p>
+                    <p class=" week"></p>
+                </div>
+                <div class="row">
+                    <p>Month change:</p>
+                    <p class=" month"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
